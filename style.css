@@ -1,0 +1,15 @@
+img{
+    margin: auto;
+    width: auto;
+    height: auto;
+    display: block;
+}
+.header li{
+    display: inline;
+}
+#footer li{
+    display: inline;
+}
+.right-head{
+    float: right;
+}
