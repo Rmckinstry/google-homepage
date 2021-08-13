@@ -1,15 +1,40 @@
-img{
+body{
+    margin: 15px;
+}
+main img{
     margin: auto;
     width: auto;
     height: auto;
     display: block;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+.image-link:hover{
+    text-decoration: none;
+    background-color: lightgray;
+}
 .header li{
     display: inline;
+    font-size: 14px;
 }
 #footer li{
     display: inline;
 }
+.left-head{
+    padding: 5px;
+    margin-left: -40px;
+    margin-right: 40px;
+}
 .right-head{
-    float: right;
+    float:right;
+    padding: 5px 10px 5px 10px;
+}
+.profile{
+    border-radius: 100%;
+
 }
