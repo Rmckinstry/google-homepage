@@ -1,6 +1,7 @@
 body{
     background-color: #FFF;
     margin: 0px;
+    font-family: sans-serif;
 }
 li{
     display: inline;
@@ -26,6 +27,15 @@ a:hover{
 .header{
     font-size: 14px;
 }
+.grid{
+    height:23px;
+    position:relative;
+    bottom:4px;
+    border-radius: 50%;
+}
+.grid:hover{
+    background-color: rgba(34,2,0,.05);
+}
 .profile-pic{
     display: block;
     border-radius: 50%;
@@ -36,11 +46,63 @@ a:hover{
     background-color:#FFF;
     flex-grow: 6;
     margin-bottom: 15px;
+    text-align: center;
+    position: relative;
+}
+.main-container{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 23%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.logo-container{
+    margin-bottom: 30px;
+}
+.main-content input{
+    display: flex;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    height: 45px;
+    width: 30%;
+    border-radius: 30px;
+    border-color: rgba(0, 0, 0, .3);
+    border-width: 1px;
+}
+.main-content button{
+    font-size: 15px;
+    padding:11px 13px 11px 13px;
+    border: none;
+    background-color: rgba(240,240,240,.5);
+    color: rgba(0,0,0,.8);
+    border-radius: 5px;
+}
+button:hover{
+    outline-color: rgba(0,0,0,.4);
+    outline-style: solid;
+    outline-width: 1px;
+}
+.button1{
+    display: inline;
+    position: absolute;
+    left: 42%;
+    top:150%;
+}
+.button2{
+    display: inline;
+    position: absolute;
+    right: 42%;
+    top:150%;
 }
 .footer{
     background-color: rgba(34,2,0,.05);
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 400 !important;
 }
 .footer a{
     color:#70757a
