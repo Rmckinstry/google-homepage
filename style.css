@@ -5,7 +5,7 @@ body{
 li{
     display: inline;
     float: left;
-    padding: 10px 15px 5px 15px;
+    padding: 10px 10px 5px 15px;
 }
 a{
     text-decoration: none;
@@ -24,7 +24,13 @@ a:hover{
     flex-grow: .1;
 }
 .header{
-    background-color: lightgoldenrodyellow;
+    font-size: 14px;
+}
+.profile-pic{
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    top: -5px
 }
 .main-content{
     background-color:#FFF;
@@ -47,4 +53,9 @@ a:hover{
 }
 .right-nav{
     float: right;
+    font-size: 13px;
+}
+.text-nav{
+    position: relative;
+    top: 4px;
 }
